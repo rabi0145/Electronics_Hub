@@ -4,7 +4,8 @@ A responsive electronics store built with React, where customers browse products
 
 This is a **frontend-only portfolio project**. All data is stored in the browser's `localStorage`, there is no backend, and it is not production-secure. See [Limitations](#limitations) before judging any of the "security" features.
 
-**Live demo:** _add your deployed link here_
+**Live demo:** (https://electronics-hub-tau.vercel.app)
+**Try the admin dashboard:** register with `admin@techmart.demo`, then use the **Admin** link in the navigation bar.
 
 ## Features
 
