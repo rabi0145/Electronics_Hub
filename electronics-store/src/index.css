@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* Brand colour: our single accent colour for the whole site.
+   Change these values later to re-theme the store. */
+@theme {
+  --color-brand-50: #eff6ff;
+  --color-brand-100: #dbeafe;
+  --color-brand-500: #3b82f6;
+  --color-brand-600: #2563eb;
+  --color-brand-700: #1d4ed8;
+}
+
+/* Global defaults applied to every page */
+@layer base {
+  body {
+    @apply bg-white text-slate-900 antialiased;
+  }
+
+  /* Visible keyboard focus indicator (accessibility requirement) */
+  :focus-visible {
+    outline: 2px solid var(--color-brand-600);
+    outline-offset: 2px;
+  }
+  /* Placeholder text must be readable too (4.5:1 on white). */
+  ::placeholder {
+    color: #64748b;
+    opacity: 1;
+  }
+}
